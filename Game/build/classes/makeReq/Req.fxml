@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="makeReq.ReqController">
+   <stylesheets>
+        <URL value="@View.css" />
+    </stylesheets>
+    <children>
+      <RadioButton fx:id="rBtnX" layoutX="147.0" layoutY="337.0" mnemonicParsing="false" onAction="#setX" selected="true" text="X" textFill="WHITE">
+         <toggleGroup>
+            <ToggleGroup fx:id="xo" />
+         </toggleGroup>
+         <font>
+            <Font size="24.0" />
+         </font></RadioButton>
+      <RadioButton fx:id="rBtnO" layoutX="291.0" layoutY="337.0" mnemonicParsing="false" onAction="#setO" text="O" textFill="WHITE" toggleGroup="$xo">
+         <font>
+            <Font size="24.0" />
+         </font></RadioButton>
+      <Button fx:id="btnSendReq" layoutX="127.0" layoutY="432.0" mnemonicParsing="false" onAction="#sendReq" prefHeight="38.0" prefWidth="96.0" text="Send" textFill="WHITE">
+         <font>
+            <Font name="Montserrat Black" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCancelReq" layoutX="263.0" layoutY="432.0" mnemonicParsing="false" onAction="#backToOnlinePlayers" prefHeight="41.0" prefWidth="105.0" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="Montserrat Black" size="18.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="ckBxRecordReq" layoutX="195.0" layoutY="390.0" mnemonicParsing="false" onAction="#recordGame" text="Record the game" textFill="WHITE" />
+   </children>
+</AnchorPane>

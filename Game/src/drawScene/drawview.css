@@ -1,0 +1,15 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#AnchorPane{
+    -fx-background-image: url('draw.jpg');
+}
+#btnDraw{
+    -fx-background-image: url('skip.png');
+    -fx-background-color: transparent;
+}
+#btnDraw:hover{
+    -fx-cursor:hand;
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 2 , 0 );
+}

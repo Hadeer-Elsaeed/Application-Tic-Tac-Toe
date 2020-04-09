@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="500.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rematchScene.RematchController">
+    <stylesheets>
+        <URL value="@rematchview.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="yesBtn" graphicTextGap="0.0" layoutX="120.0" layoutY="285.0" mnemonicParsing="false" onAction="#changeScrenToPlayAgain" prefHeight="30.0" prefWidth="80.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="NoBtn" layoutX="302.0" layoutY="285.0" mnemonicParsing="false" onAction="#changeScreenToMain" prefHeight="30.0" prefWidth="80.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

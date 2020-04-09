@@ -1,0 +1,42 @@
+#signupButton{
+    -fx-border-radius: 0px;
+    -fx-text-fill: blue;
+}
+#AnchorPane{
+    -fx-background-image:url('login.jpg');
+}
+#cancelButton{
+    -fx-background-image:url('backbtn.png');
+    -fx-background-color: transparent;
+}
+#cancelButton:hover{
+    -fx-cursor:hand;
+}
+#btnUser{
+    -fx-background-image:url('user.png');
+    -fx-background-color:transparent;
+}
+#btnPass{
+    -fx-background-image:url('pass.png');
+    -fx-background-color:transparent;
+}
+#loginButton{
+    -fx-background-color:#ff5386;
+    -fx-text-fill:#ffffff;
+    -fx-font-size:20px;
+}
+#loginButton:hover{
+    -fx-cursor:hand;
+    -fx-background-color:#e53871;
+
+}
+#signupButton{
+    -fx-background-color:gainsboro;
+    -fx-text-fill:#000;
+    -fx-font-size:20px;
+}
+#signupButton:hover{
+    -fx-cursor:hand;
+    -fx-background-color:#777777;
+
+}

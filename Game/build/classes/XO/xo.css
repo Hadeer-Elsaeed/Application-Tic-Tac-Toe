@@ -1,0 +1,26 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#anchor{
+    -fx-background-image:url('bgPc.jpg');
+}
+.BtnXO{
+    -fx-text-align: center;
+    /*-fx-border-color: #ffdd12;*/
+    -fx-border-width:5px;
+    -fx-border-radius: 10px;
+    -fx-font: bold 20pt "Gotham";
+    -fx-background-color: white;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+.BtnXO:hover{
+    -fx-cursor: hand;
+}
+#btnBack{
+    -fx-background-image:url('btnback.png');
+    -fx-background-color: transparent;
+}
+#btnBack:hover{
+    -fx-cursor:hand;
+}

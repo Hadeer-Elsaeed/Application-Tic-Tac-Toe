@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="receiveReq.ReceiveReqController">
+   <stylesheets>
+        <URL value="@view.css" />
+    </stylesheets>
+    <children>
+      <Button fx:id="btnAccept" layoutX="134.0" layoutY="370.0" mnemonicParsing="false" onAction="#openXOBoard" text="Accept" textFill="WHITE">
+         <font>
+            <Font name="Montserrat Black" size="18.0" />
+         </font></Button>
+      <Button fx:id="btnRefused" layoutX="262.0" layoutY="367.0" mnemonicParsing="false" onAction="#goToOnlinePlayers" text="Refuse" textFill="WHITE">
+         <font>
+            <Font name="Montserrat Black" size="18.0" />
+         </font></Button>
+      <CheckBox fx:id="ckBxRecord" layoutX="182.0" layoutY="336.0" mnemonicParsing="false" onAction="#recordGameReceived" text="Record the game" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="11.0" />
+         </font></CheckBox>
+      <Text fx:id="pname" fill="WHITE" layoutX="151.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="192.99999618530273">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

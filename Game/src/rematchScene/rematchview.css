@@ -1,0 +1,23 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#AnchorPane{
+    -fx-background-image: url('rematchBg.jpg');
+}
+#yesBtn{
+        -fx-background-color: transparent;
+     -fx-background-image: url('yes.png');
+}
+#NoBtn{
+    -fx-background-color: transparent;
+    -fx-background-image: url('No.png');
+}
+#yesBtn:hover{
+    -fx-cursor:hand;
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 2 , 0 );
+}
+#NoBtn:hover{
+    -fx-cursor:hand;
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 2 , 0 );
+}

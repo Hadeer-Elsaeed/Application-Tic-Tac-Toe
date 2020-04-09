@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 9, 2020, 2:05:54 PM
+    Author     : Ahmed
+*/
+
+#split {
+    -fx-background-image:url('onlinebg.png');
+}
+#btnBack{
+    -fx-background-image: url('backbtn.png');
+}
+#btnPreGames{
+    -fx-background-color: transparent;
+    -fx-background-image: url('preGames.png');
+}
+#btnPreGames:hover{
+    -fx-cursor:hand;
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 2 , 0 );
+}
+#lstView{
+    -fx-background-color: #23926c;
+}
+#btnBack{
+    -fx-background-image:url('btnback.png');
+    -fx-background-color: transparent;
+}
+#btnBack:hover{
+    -fx-cursor:hand;
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 2 , 0 );
+}

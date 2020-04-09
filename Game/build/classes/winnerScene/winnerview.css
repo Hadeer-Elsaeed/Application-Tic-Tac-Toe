@@ -1,0 +1,20 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#AnchorPane{
+    -fx-background-image:url('winner.png');
+}
+#skipBtn{
+    -fx-background-image:url('skip.png');
+    -fx-background-color:transparent;
+}
+#skipBtn:hover{
+   -fx-cursor: hand;
+   -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 2 , 0 );
+
+}
+#mv{
+    -fx-border-color:#fec401;
+    -fx-border-width:5px;
+}

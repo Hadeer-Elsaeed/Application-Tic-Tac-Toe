@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="LoginAnchor" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginscene.LoginController">
+    <stylesheets>
+        <URL value="@login.css" />
+    </stylesheets>
+    <children>
+      <Button fx:id="loginButton" layoutX="141.0" layoutY="296.0" mnemonicParsing="false" onAction="#moveToOnlineGameScene" prefHeight="37.0" prefWidth="217.0" text="Login" />
+      <TextField fx:id="usernameField" layoutX="184.0" layoutY="208.0" prefHeight="34.0" prefWidth="174.0" promptText="User name" />
+      <Button fx:id="signupButton" layoutX="142.0" layoutY="348.0" mnemonicParsing="false" onAction="#moveToRegisterationScene" prefHeight="37.0" prefWidth="217.0" text="Sign up" />
+      <Button fx:id="cancelButton" layoutX="35.0" layoutY="423.0" mnemonicParsing="false" onAction="#moveToMainScene" prefHeight="50.0" prefWidth="50.0" />
+      <PasswordField fx:id="passwordField" layoutX="184.0" layoutY="252.0" prefHeight="34.0" prefWidth="174.0" promptText="Password" />
+      <Button fx:id="btnPass" layoutX="141.0" layoutY="248.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Button fx:id="btnUser" layoutX="141.0" layoutY="204.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" />
+      <Label fx:id="checkLabel" layoutX="139.0" layoutY="423.0" prefHeight="20.0" prefWidth="224.0" textFill="#ff4c4c">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
